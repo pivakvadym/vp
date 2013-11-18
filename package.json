@@ -1,0 +1,23 @@
+{
+    "name": "pivak_vadym",
+    "subdomain": "crazy_koubiks",
+    "scripts": {
+        "start": "server.js"
+    },
+    "version": "0.10.20-13",
+    "engines": {
+        "node": "0.10.x"
+    },
+    "dependencies": {
+        "socket.io": "0.9.x"
+    },
+    "author": {
+        "name": "Pivak Vadym",
+        "email": "pivak.vadyme@gmail.com",
+        "url":  "http://pivakvadym.ouest-est.org"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pivakvadym/vp.git"
+    }
+}
