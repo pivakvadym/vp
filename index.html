@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/html">
+	<head>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="js/init.js"></script>
+        <script src="js/client.js"></script>
+        <script src="js/draw.js"></script>
+		<script src="js/collision.js"></script>
+		<script src="js/ready_counter.js"></script>
+		<script src="js/hero.js"></script>
+		<script src="js/game.js"></script>
+		<script src="js/enemies.js"></script>
+		<script src="js/levels.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/soundmanager2.js"></script>
+        <script src="js/start.js"></script>
+
+    </head>
+
+	<body>
+    <canvas id="head" style="margin-left: 25%;"></canvas>
+  <!--  <h1> Mini game JavaScript : Crazies Koubiks <h1/>-->
+
+        <a href="DocMiniJeuJS_TP4.pdf"><img src="imgs/aboutme.png" style="width: 40px;height: 40px; position:absolute;top:50px;left: 10px;"/></a>
+        <img src="imgs/sound.png" onclick="js/play_music.js" style="cursor:pointer; width: 40px;height: 40px; position:absolute;top:150px;left: 10px;"/>
+        <div id="game_field">
+
+        <canvas id="game"></canvas>
+
+    </div>
+
+    <div id="chat_field">
+
+        <div id="playrs">
+
+		  	    <p>PLAYERS :</p>
+
+            <div id="users_name"></div>
+
+        </div>
+
+        <div id="chat">
+
+	           <input id="data"  placeholder="put your massage" />
+
+		       <input type="button" id="datasend" value="send"/>
+
+        <div id="conversation"></div>
+
+        </div>
+
+	</div>
+<footer> Mini game JavaScript by Vadym Pivak  2013 &copy; <a href="DocMiniJeuJS_TP4.pdf"> télécharger la documentation</a></footer>
+
+</body>
+
+</html>
